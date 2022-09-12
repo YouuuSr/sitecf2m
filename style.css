@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+
+
+/* partie en-tête */
+
+body{
+
+  margin: 0;
+  padding: 0;
+  background: url(images/LED.JPG.jpg);
+  background-size: 100%;
+  font-family:"Bebas Neue&display", sans-serif; 
+}
+nav{
+  display: flex;
+  justify-content: center;
+ 
+}
+nav h1{
+  text-align: center;
+  
+}
+a:hover {
+  background-color: #fff;
+}
+
+/* partie body */
+li a{
+  text-decoration: none;
+  opacity: 0.8;
+  color:#A16C83;
+  margin-right: 30px;
+  display:inline;
+  border-radius: 30%;
+  font-family: 'Audiowide', sans-serif; 
+  font-size: 25px;
+  margin-left: 30px;
+  padding: 12px;
+
+  
+
+}
+.onglets li{
+  display: inline;
+}
+
+ul{
+  list-style-type: none;
+ /* margin: 0;
+  padding: 0;*/
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  /*  background: url(images/LED.JPG.jpg); */
+    ime-mode: active;
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+header h1{
+  
+  font-family: 'Audiowide', cursive; 
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 0 0 10px #CDACB4,
+  0 0 20px #CDACB4,
+  0 0 40px #CDACB4,
+  0 0 80px #CDACB4,
+  0 0 120px #CDACB4;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  height: 75%;
+  border-block: 5px solid #CDACB4;
+  background-color:#303B40;
+  opacity: 0.9;  
+}
+
+
+article h2{
+  color:floralwhite;
+}
+
+article p{
+  color:#BDD1DC;
+}
+
+footer {  
+  padding: 10px;
+  text-align:left;
+  color: #CDACB4;
+  display: table-row;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
