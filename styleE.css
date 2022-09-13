@@ -10,7 +10,13 @@ body{
   margin: 0;
   padding: 0;
   font-family:"Montserrat", sans-serif; 
+  background-image: url(images/marbre2.jpg);
+  background-size: cover;
+  opacity: 90%;
+
 }
+
+/*
 #background-video {
 height: 100vh;
 width: 100vw;
@@ -21,21 +27,22 @@ right: 0;
 top: 0;
 bottom: 0;
 z-index: -1;
-}
+opacity: 90%;
+} */
 
 nav{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px solid #79E7A4;
+  border-bottom: 5px solid #FFFF;
   margin-bottom: 30px;
   padding:30px;
   
   
 }
 .titre1 h1{
-  color:#79E7A4; 
+  color:#abc4ff; 
   font-family: 'Audiowide', sans-serif; 
   font-size:40px;
   text-align: center;
@@ -47,14 +54,12 @@ nav{
 
 
 a:hover {
-  background-color:#79E7A4;
-  color: white;
+  background-color:#FFFF;
 }
 
 /* partie body */
 li a{
   text-decoration: none;
-  color:#479063;
   margin-right: 5px;
   display:inline;
   border-radius: 30%;
@@ -63,11 +68,11 @@ li a{
   font-size: 30px;
   margin-left: 30px;
   margin-right:30px;
-  text-shadow: 0 0 10px #479063,
+ /* text-shadow: 0 0 10px #479063,
   0 0 20px #479063,
   0 0 40px #479063,
   0 0 80px #479063,
-  0 0 120px #479063;
+  0 0 120px #479063; */
 
 }
 .titre1 li{
@@ -77,7 +82,7 @@ li a{
 
 .titre1 a{
    
-  color:#479063;
+  color:#5596e6;
   text-decoration: none;
 }
 
@@ -92,18 +97,18 @@ ul{
 
 
 .box p{
-  color: white;
+  color:#5596e6;
   font-family: 'Red Hat Display', sans-serif;
   
   font-size: 20px;
   font-weight: 0.1em;
   letter-spacing: 0.1em;
   text-align: center;
-  text-shadow: 0 0 10px #479063,
-    0 0 20px #479063,
-    0 0 40px #479063,
-    0 0 80px #479063,
-    0 0 120px #479063;
+  text-shadow: 0 0 10px #bbd5f5,
+    0 0 20px #bbd5f5,
+    0 0 40px #bbd5f5,
+    0 0 80px #bbd5f5,
+    0 0 120px #bbd5f5;
   margin-left: 30px;
   margin-right: 30px;
   margin-top:100px;
@@ -111,12 +116,18 @@ ul{
 }
 
 
+.box {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #131515;
+  background-color: #FFFF;
+  border:10px;
+  border: solid;
+  opacity: 90%;
 
-.box{
-  background-color: black;
-  opacity: 0.9;
 }
-
 
 
 
@@ -139,11 +150,11 @@ ul{
 .gallery a  {
    font-size: 20px;
   color: #FFFF;
-  text-shadow: 0 0 10px #479063,
-  0 0 20px #479063,
-  0 0 40px #479063,
-  0 0 80px #479063,
-  0 0 120px #479063;
+  text-shadow: 0 0 10px #0a3c79,
+  0 0 20px #0a3c79,
+  0 0 40px #0a3c79,
+  0 0 80px #0a3c79,
+  0 0 120px #0a3c79;
 }
 
 
