@@ -18,6 +18,8 @@ nav{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-top: 30px;
   
 }
 nav h1{
@@ -27,21 +29,22 @@ nav h1{
 }
 
 a:hover {
-  background-color: #fff;
+  background-color: white;
+  
 }
 
 .titre1 h1{
-  color:#FFFF; 
+  color:black; 
   font-family: 'Audiowide', sans-serif; 
   font-size:40px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom:50px;
   margin-left: 30px;
   margin-right: 30px;
-  text-shadow: 0 0 10px #CDACB4,
-  0 0 20px #CDACB4,
-  0 0 40px #CDACB4,
-  0 0 80px #CDACB4,
-  0 0 120px #CDACB4;
+  box-shadow: 0 0 10px black,
+  0 0 20px black,
+  0 0 40px black;
   
 }
 
@@ -52,7 +55,7 @@ ul{
 
 li {
   text-decoration: none;
-  color:#EFA9DD;
+  
   margin-right: 5px;
   display:inline;
   font-family:"Montserrat",sans-serif;
@@ -62,8 +65,7 @@ li {
 
 li a{
   text-decoration: none;
-  opacity: 0.8;
-  color:#A16C83;
+  color:black;
   margin-right: 30px;
   display:inline;
   border-radius: 30%;
@@ -71,6 +73,9 @@ li a{
   font-size: 25px;
   margin-left: 30px;
   padding: 12px;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px,
+  0 0 40px #100f10;
 
 }
                    /* partie body */
@@ -118,8 +123,9 @@ article h3{
   background-color: #100f10;
   
   border-color: #CDACB4;
-  box-shadow: 0 0 10px #CDACB4,
-  0 0 20px #CDACB4;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px,
+  0 0 40px #100f10;
   opacity: 90%;
   position: relative;
   margin: auto;
@@ -169,10 +175,13 @@ details > p {
   padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 2px  solid #0000;
+  border: 2px  solid black;
   border-radius: 190px;
   margin-left: 65%;
   display: table-cell;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px,
+  0 0 40px #100f10;
 
 
 
@@ -195,10 +204,13 @@ details > p {
   padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 2px  solid #0000;
+  border: 2px  solid black;
   border-radius: 190px;
   margin-right: 65%;
   display: table-cell;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px,
+  0 0 40px #100f10;
 
 }
 
@@ -217,7 +229,7 @@ details > p {
 footer {
 
   color: #100f10;
-  position: fixed;
+  position: relative;
   bottom: 0;
   font-weight: bolder;
 
@@ -226,7 +238,7 @@ footer {
 .fin {
 
   background-color: #fffeff;
-  border-color: #100f10;
+  border-color: 2px solid black;
 
 
 }
