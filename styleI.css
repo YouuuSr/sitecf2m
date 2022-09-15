@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
 body{
   
-  margin: 0;
-  padding: 0%;
+margin: 0;
+padding: 0%;
  background-image: url(images/marbreR\ .jpg);
  background-size: cover;
-
  opacity: 90%;
  
-  
-
 }
 nav{
   display: flex;
@@ -29,7 +27,8 @@ nav h1{
 }
 
 a:hover {
-  background-color: white;
+  background-color: palevioletred;
+  transition: 2s;
   
 }
 
@@ -88,7 +87,7 @@ article h3{
 .texteP h3 {
   text-align: center;
   color: #fff;
-  font-family:'Audiowide' , cursive ;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -98,14 +97,14 @@ article h3{
 .texteP h3 a {
 
   color:#FFFF ;
-  font-family: 'Audiowide' , cursive;
+  font-family: 'Red Hat Display', sans-serif;
   text-decoration: none;
   
 }
 
 .texteP h3 a:hover{
-
-  background-color: #A16C83;
+  background-color: palevioletred;
+  transition: 2s;
 }
 
 .texteP details {
@@ -121,26 +120,23 @@ article h3{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #100f10;
-  
   border-color: #CDACB4;
   box-shadow: 0 0 10px #100f10,
-  0 0 20px,
+  0 0 20px #100f10,
+  0 0 40px #100f10,
   0 0 40px #100f10;
   opacity: 90%;
   position: relative;
   margin: auto;
-  width: 300pt;
+  width: 600px;
   margin-bottom: 50px;
-  
 
-  
 }
 
 
 details > summary {
   padding: 15px;
   background-color: #FFFF;
-  opacity: 90%;
   cursor: progress;
   text-align: center;
   border-radius: 190px;
@@ -149,6 +145,7 @@ details > summary {
   color: #100f10;
   font-weight: bold;
   margin-bottom: 20px;
+  width: 600px;
  
 }
 #text {
@@ -159,18 +156,20 @@ details > p {
   background-color:white;
   padding: 4px;
   box-shadow: 1px 1px 2px black;
-  border-radius: 5%;
-  font-family: "Montserrat",sans-serif;
-  font-size: medium;
+  border-radius: 2%;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
   color: black;
   font-weight: bold;
+  width: 600px;
+  letter-spacing: 0.1rem;
   
 }
 
 .conclusion {
 
   background-color: #fffeff;
-  opacity: 70%;
+  
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -183,23 +182,20 @@ details > p {
   0 0 20px,
   0 0 40px #100f10;
 
-
-
 }
 
 .conclusion P {
 
   font-size: large;
-  font-family:"Montserrat",sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   color: #100f10;
   font-weight: bold;
   
-
 }
 
 .confirmation {
   background-color: #fffeff;
-  opacity: 70%;
+ 
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -217,28 +213,29 @@ details > p {
 .confirmation p {
   
   font-size: large;
-  font-family:"Montserrat",sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   color: #100f10;
   font-weight: bold;
-  
-
-
-}
-
-
-footer {
-
-  color: #100f10;
-  position: relative;
-  bottom: 0;
-  font-weight: bolder;
-
+ 
 }
 
 .fin {
 
-  background-color: #fffeff;
-  border-color: 2px solid black;
-
-
+  background-color: #100f10;
+  margin-top: 30px;
+  position: relative;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
+  color: white;
+  position: relative;
+  bottom: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  opacity: 90%;
+  
 }

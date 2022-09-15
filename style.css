@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
 
 
@@ -10,11 +9,10 @@
 
 body{
 
-  margin: 0;
-  padding: 0;
-  background: url(images/LED.JPG.jpg);
-  background-size: 100%;
-  font-family:"Bebas Neue&display", sans-serif; 
+  background: url(images/LED.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
 }
 nav{
   display: flex;
@@ -28,6 +26,7 @@ nav h1{
 }
 a:hover {
   background-color: #fff;
+  transition: 3s;
 }
 
 /* partie body */
@@ -51,9 +50,7 @@ li a{
 .onglets li{
   display: inline;
   
- 
-
-}
+ }
 
 ul{
   list-style-type: none;
@@ -71,8 +68,8 @@ ul{
     color: #fff;
     background-color:#CDACB4;
     opacity: 90%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     box-shadow: 0 0 10px black,
     0 0 20px black,
     0 0 40px black;
@@ -80,11 +77,10 @@ ul{
 }
 .titre h1{
   
-  font-family: 'Audiowide', cursive; 
-  font-size: 35px;
+  font-family: 'Red Hat Display', sans-serif;  font-size: 35px;
   text-align: center;
   margin-top: 30px;
-  margin-bottom:50px;
+  margin-bottom:30px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -96,16 +92,16 @@ ul{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #100f10;
-  
-  border-color: #CDACB4;
   box-shadow: 0 0 10px #100f10,
-  0 0 20px,
+  0 0 20px #100f10,
   0 0 40px #100f10;
   opacity: 90%;
   position: relative;
   margin: auto;
   width: 300pt;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  
+  
   
  
 }
@@ -116,22 +112,34 @@ ul{
 }
 
 .article p{
-  color:#BDD1DC;
+  color:#FFFF;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+}
+
+.article p a{
+
+  font-family: 'Red Hat Display', sans-serif;
+  color: #FFFF;
+  text-decoration: none;
+
+
+
 }
 
 footer {  
-  padding: 10px;
-  text-align:left;
+  
+  font-family: 'Red Hat Display', sans-serif;
   color: #ffff;
-  display: table-row;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  text-shadow: 0 0 10px #CDACB4,
-  0 0 20px #CDACB4,
-  0 0 40px #CDACB4,
-  0 0 80px #CDACB4,
-  0 0 120px #CDACB4;
+  opacity: 90%;
+  background-color: #100f10;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
+
 }
