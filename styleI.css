@@ -80,10 +80,6 @@ li a{
                    /* partie body */
 
 
-article h3{
-  color: white;
-}
-
 .texteP h3 {
   text-align: center;
   color: #fff;
@@ -111,6 +107,36 @@ article h3{
 
   margin-top: 10px;
   margin-top: 10px;
+}
+
+.presentation {
+  color: black;
+  border-radius: 10px;
+  opacity: 90%;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px #100f10,
+   0 0 20px,
+   0 0 40px #100f10;
+}
+
+.presentation p {
+
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.circle{
+   width: 200px;
+   height: 200px;
+  background: url(images/zeyd.jpeg);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+  text-align: center;
 }
 
 .detail {
@@ -238,4 +264,13 @@ details > p {
   padding: 1rem;
   opacity: 90%;
   
+}
+
+.organigramme  {
+
+  margin-left: 100px ;
+  margin-right: 100px;
+  margin-top: 80px;
+
+
 }
