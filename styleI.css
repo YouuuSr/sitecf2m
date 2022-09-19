@@ -206,20 +206,23 @@ li a{
 } 
 .presentation {
   color: black;
-  border-radius: 10px;
   opacity: 90%;
-  width: 800px;
+  width: 900px;
   margin: auto;
   margin-bottom: 50px;
   box-shadow: 0 0 10px #100f10,
    0 0 20px,
    0 0 40px #100f10;
+   min-height: 600px;
 }
 
 .presentation p {
   font-family:'Red Hat Display', sans-serif;
- margin-top: 10px;
- margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 15px;
+  text-align: justify;
+
 }
 
 .presentation p a {
@@ -229,20 +232,36 @@ li a{
   color: #100f10;
 }
 
+.maps {
+
+}
+
+.maps iframe {
+  float: left;
+margin-right: 50px;
+}
+
+ /*.telephone  {
+  
+  float: right;
+  
+}
+
+*/
+
 .circle{
    width: 200px;
    height: 190px;
   background: url(images/zeyd.jpeg);
   background-size: 100% 100%;
-  border-radius: 50%;
   float: left;
-  shape-outside: circle();
   margin: 30px;
   text-align: center;
 }
 
-.detail {
 
+.detail {
+  clear: both;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 20px;
