@@ -9,8 +9,17 @@ padding: 0%;
  background-image: url(images/marbreR\ .jpg);
  background-size: cover;
  opacity: 90%;
- 
+/* animation-name: example;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
 }
+
+@keyframes example {
+ from {background-image:url(images/BACK.jpg);}
+ to {background-image: url(images/NEWMARBRE.jpg);}
+*/
+}
+ /* BARRE NAV PR LES 2 PAGES */
 nav{
   display: flex;
   flex-wrap: wrap;
@@ -32,20 +41,6 @@ a:hover {
   
 }
 
-.titre1 h1{
-  color:black; 
-  font-family: 'Audiowide', sans-serif; 
-  font-size:40px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom:50px;
-  margin-left: 30px;
-  margin-right: 30px;
-  box-shadow: 0 0 10px black,
-  0 0 20px black,
-  0 0 40px black;
-  
-}
 
 ul{
   list-style-type: none;
@@ -57,7 +52,7 @@ li {
   
   margin-right: 5px;
   display:inline;
-  font-family:"Montserrat",sans-serif;
+  
   font-size: 17px;
   margin-left: 5pt;
 }
@@ -77,9 +72,110 @@ li a{
   0 0 40px #100f10;
 
 }
-                   /* partie body */
+
+   /* PARTIE BODY EXPERIENCE*/
+.box p{
+
+  color:white;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  text-align: justify;
 
 
+}
+
+
+.box {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #100f10;
+  box-shadow: 0 0 10px #fffeff,
+  0 0 20px #fffeff,
+  0 0 40px #fffeff;
+  
+  margin: auto;
+  width: 300pt;
+  margin-bottom: 50px;
+
+}
+.gallery {
+
+  background-color: #100f10;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 70%;
+  width: 400px;
+  margin: auto;
+  height: 100px;
+  padding-top: 10px;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
+}
+
+
+
+.gallery a  {
+  font-size: 30px;
+  color: #FFFF;
+  text-decoration: none;
+  text-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
+}
+
+/* PIED DE PAGE EXPO */
+.pied {
+
+  background-color: #100f10;
+  margin-top: 30px;
+  position: relative;
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
+  color: white;
+  position: relative;
+  bottom: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  opacity: 90%;
+ 
+} 
+ /* PAGE ITW */
+
+
+ .titre1 h1{
+  color:black; 
+  font-family: 'Audiowide', sans-serif; 
+  font-size:40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 0 10px black,
+  0 0 20px black,
+  0 0 40px black;
+  
+}
+.titre1 li{
+  display: inline;
+                    
+}
+                  
+.titre1 a{
+                  
+   color: black;
+  text-decoration: none;
+             
+}
 .texteP h3 {
   text-align: center;
   color: #fff;
@@ -107,13 +203,12 @@ li a{
 
   margin-top: 10px;
   margin-top: 10px;
-}
-
+} 
 .presentation {
   color: black;
   border-radius: 10px;
   opacity: 90%;
-  width: 600px;
+  width: 800px;
   margin: auto;
   margin-bottom: 50px;
   box-shadow: 0 0 10px #100f10,
@@ -122,14 +217,21 @@ li a{
 }
 
 .presentation p {
-
+  font-family:'Red Hat Display', sans-serif;
  margin-top: 10px;
  margin-bottom: 10px;
 }
 
+.presentation p a {
+  text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
+  
+  color: #100f10;
+}
+
 .circle{
    width: 200px;
-   height: 200px;
+   height: 190px;
   background: url(images/zeyd.jpeg);
   background-size: 100% 100%;
   border-radius: 50%;
@@ -244,7 +346,8 @@ details > p {
   font-weight: bold;
  
 }
-
+   
+/* PIED DE PAGE ITW*/
 .fin {
 
   background-color: #100f10;
@@ -266,11 +369,68 @@ details > p {
   
 }
 
+/* GALLERIE PHOTO     */
+.gallerie {
+    
+  width: 600px;
+  max-width: 100%;
+  max-height:398px;
+  margin: 2rem auto;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  }
+  
+  .gallerie img {
+  scroll-snap-align: center;
+  min-width: 100%;
+   border-radius: 5px;
+      
+  }
+  
+  .bouton {
+      
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  
+  }
+      
+  .bouton li{
+      
+  display: inline-flex;
+  justify-content: center;
+  align-items:center;
+  width: 30px;
+  height: 30px;
+  background: #404040;
+  border-radius: 50%;
+  }
+      
+  .bouton li a{color:white}
+      
+  .bouton li:not(:last-child){
+    margin-right: 30px;
+  }
+  
+  
+  .bouton li a:hover {
+    opacity: 0.5;
+  }
+    
+ /* PAGE ORGANIGRAMME */
 .organigramme  {
 
   margin-left: 100px ;
   margin-right: 100px;
   margin-top: 80px;
+}
+.organigramme img{
 
-
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }

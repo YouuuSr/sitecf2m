@@ -1,14 +1,7 @@
 
 
-html{
 
-    scroll-padding-top: 6rem/*pour le saut de page, a ajuster selon les besoins*/
-    
-    }
-    
-    *{box-sizing: border-box}
-    
-    .slider-scroll {
+    .gallerie {
     
     width: 600px;
     max-width: 100%;
@@ -21,14 +14,14 @@ html{
     -webkit-overflow-scrolling: touch;
     }
     
-    .slider-scroll img {
+    .gallerie img {
     scroll-snap-align: center;
     min-width: 100%;
      border-radius: 5px;
         
     }
     
-    .ancre {
+    .bouton {
         
     margin: 1rem auto;
     display: flex;
@@ -36,7 +29,7 @@ html{
     
     }
         
-    .ancre li{
+    .bouton li{
         
     display: inline-flex;
     justify-content: center;
@@ -47,14 +40,14 @@ html{
     border-radius: 50%;
     }
         
-    .ancre li a{color:white}
+    .bouton li a{color:white}
         
-    .ancre li:not(:last-child){
+    .bouton li:not(:last-child){
       margin-right: 30px;
     }
     
     
-    .ancre li a:hover {
+    .bouton li a:hover {
       opacity: 0.5;
     }
         
