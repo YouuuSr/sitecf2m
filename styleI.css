@@ -80,6 +80,7 @@ li a{
   font-family: 'Red Hat Display', sans-serif;
   font-size: 20px;
   text-align: justify;
+  letter-spacing: 0.1rem;
 
 
 }
@@ -94,7 +95,6 @@ li a{
   box-shadow: 0 0 10px #fffeff,
   0 0 20px #fffeff,
   0 0 40px #fffeff;
-  
   margin: auto;
   width: 300pt;
   margin-bottom: 50px;
@@ -213,7 +213,7 @@ li a{
   box-shadow: 0 0 10px #100f10,
    0 0 20px,
    0 0 40px #100f10;
-   min-height: 600px;
+  
 }
 
 .presentation p {
@@ -232,14 +232,8 @@ li a{
   color: #100f10;
 }
 
-.maps {
 
-}
 
-.maps iframe {
-  float: left;
-margin-right: 50px;
-}
 
  /*.telephone  {
   
@@ -259,7 +253,26 @@ margin-right: 50px;
   text-align: center;
 }
 
+.cordonnée {
 
+    width: 100px;
+    height: 90px;
+}
+
+aside {
+  width: 100px;
+  height: 50px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+aside p{
+
+text-align: justify ;
+
+}
 .detail {
   clear: both;
   padding-left: 100px;
@@ -316,7 +329,6 @@ details > p {
 .conclusion {
 
   background-color: #fffeff;
-  
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -340,7 +352,7 @@ details > p {
   
 }
 
-.confirmation {
+/* .confirmation {
   background-color: #fffeff;
  
   padding-right: 50px;
@@ -365,6 +377,7 @@ details > p {
   font-weight: bold;
  
 }
+*/
    
 /* PIED DE PAGE ITW*/
 .fin {
@@ -445,6 +458,7 @@ details > p {
   margin-left: 100px ;
   margin-right: 100px;
   margin-top: 80px;
+  text-align: center;
 }
 .organigramme img{
 
@@ -452,4 +466,6 @@ details > p {
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  
 }
+
