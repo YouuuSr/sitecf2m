@@ -10,6 +10,7 @@
 body{
 
   background: url(images/LED.jpg);
+  background-color:#232D2E;
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -118,6 +119,8 @@ ul{
   color:#FFFF;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 18px;
+  letter-spacing: 0.1em;
+
 }
 
 .article p a{

@@ -219,6 +219,7 @@ li a{
 .presentation p {
   font-family:'Red Hat Display', sans-serif;
   font-size: 17px;
+  letter-spacing: 0.1em;
   font-weight: 700;
   padding: 15px;
   text-align: justify;
@@ -228,20 +229,11 @@ li a{
 .presentation p a {
   text-decoration: none;
   font-family: 'Red Hat Display', sans-serif;
-  
   color: #100f10;
+  letter-spacing: 0.1em;
 }
 
 
-
-
- /*.telephone  {
-  
-  float: right;
-  
-}
-
-*/
 
 .circle{
    width: 200px;
@@ -328,7 +320,6 @@ details > p {
 
 .conclusion {
 
-  background-color: #fffeff;
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -345,10 +336,11 @@ details > p {
 
 .conclusion P {
 
-  font-size: large;
+  font-size: 18px;
   font-family: 'Red Hat Display', sans-serif;
   color: #100f10;
   font-weight: bold;
+  letter-spacing: 0.1em;
   
 }
 
@@ -410,15 +402,16 @@ details > p {
   margin: 2rem auto;
   display: flex;
   overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+
   }
   
   .gallerie img {
   scroll-snap-align: center;
   min-width: 100%;
-   border-radius: 5px;
+  border-radius:2px; 
+  box-shadow: 0 0 10px #100f10,
+  0 0 20px #100f10,
+  0 0 40px #100f10;
       
   }
   
